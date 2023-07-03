@@ -7,3 +7,41 @@ body{
   background-color: rgb(249, 236, 221);
   color: #770350;
 }
+
+.ui.main{
+  margin: 5rem auto;
+}
+.ui.form > .field{
+  margin: 2rem;
+}
+.ui.container{
+  justify-content: center;
+  margin: .8rem auto;
+}
+button.ui.button{
+  background-color: #770350;
+  color: aliceblue;
+  display: block;
+  margin: 0 auto;
+}
+.ui.button:hover{
+  background-color: #b20779;
+  color: aliceblue;
+}
+
+.ui.list{
+  margin: 1rem;
+}
+.ui.list > .item{
+  margin: 1rem auto;
+  position: relative;
+}
+i.icon.trash.alternate.outline{
+  position: absolute;
+  right: 0;
+  }
+.ui.list>.item>.content{
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start;
+}
